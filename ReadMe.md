@@ -207,7 +207,7 @@ The computers category contributes most to repeated orders with a total of 11,46
 
 ![Most profitable Products](assets/top_perfoming_products_based_on_difference_btw_cost_and_price_chart.png)
 
-
+The top-performing products by profit are distinguished by narrow profit margins, with WWI Desktop PC2.33 X2330 Black leading the category, generating $337,985.99 in profit, accounting for approximately 1.03% of total profits. Following closely are Adventure Works Desktop PC2.33 XD233 Silver with a profit contribution of 0.95% and Adventure Works Desktop PC2.33 XD233 Brown at 0.95%. Other notable entries include Adventure Works Desktop PC2.33 XD233 Black (0.92%), Adventure Works Desktop PC2.33 XD233 White (0.89%), and WWI Desktop PC2.33 X2330 White (0.87%), completing the top six.
 
 
 
