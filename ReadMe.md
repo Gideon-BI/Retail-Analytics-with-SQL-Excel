@@ -123,6 +123,7 @@ The following sections explore the business questions answered throughout this a
 
 - 📈 Sales Trend Analysis
 - 🛍 Product Performance
+- 🏬Store Performances
 - 🌍 Geographic Analysis
 - 👥 Customer Insights
 - 💡 Key Findings
@@ -134,9 +135,7 @@ The following sections explore the business questions answered throughout this a
 
 **1a. What were the seasonal sales trends over the past three business years, and how did they vary across seasons?**
 
-![Order Trend by Month sql table](asset/Order%20by%20month%20of%20the%20Year.png)
-
-![Order Trend by Month chart](asset/Orders%202018%202019%202020%20Chart.png)
+![Order Trend by Month sql table](asset/Order%20by%20month%20of%20the%20Year.png)![Order Trend by Month chart](asset/Orders%202018%202019%202020%20Chart.png)
 
 *Figure 1: Monthly order trends across the three business years*
 
