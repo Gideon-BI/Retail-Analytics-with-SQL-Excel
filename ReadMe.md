@@ -138,11 +138,11 @@ What were the seasonal sales trends over the past three business years, and how 
 #### Order Trend by Month(2018-2020)
 
 
-![Order Trend by Month](assets/Order_by_month_of%20_the_Year_csv.png)
+![Order Trend by Month sql table](assets/Order_by_month_of%20_the_Year_csv.png)
 
-![Order Trend by Month](assets/Orders_2018_2019_2020_Chart.png)
+![Order Trend by Month chart](assets/Orders_2018_2019_2020_Chart.png)
 
-*Figure 1: Monthly order trends across the three business years
+*Figure 1: Monthly order trends across the three business years*
 
 ### 💡 Key Insight
 
