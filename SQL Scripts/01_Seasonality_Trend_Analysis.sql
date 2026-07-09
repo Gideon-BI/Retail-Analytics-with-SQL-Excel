@@ -42,3 +42,28 @@ ON [2019].Number = [2020].Number
 )
 
 ORDER BY 1 ASC
+
+-- 1b. How did order volumes fluctuate across the four seasons of the year?
+
+SELECT
+     DATEPART(YEAR, ORDERDATE) AS Years,
+     SUM(CASE 
+           WHEN DATEPART(MONTH, ORDERDATE) IN (6,7,8) THEN 1
+        END
+      ) AS 'Summer',
+     SUM(CASE 
+           WHEN DATEPART(MONTH, ORDERDATE) IN (12,1,2) THEN 1
+        END
+      ) AS 'Winter',
+     SUM(CASE 
+           WHEN DATEPART(MONTH, ORDERDATE) IN (9,10,12) THEN 1
+        END
+      ) AS 'Autumn',
+     SUM(CASE 
+           WHEN DATEPART(MONTH, ORDERDATE) IN (3,4,5) THEN 1
+         END
+      ) AS 'Spring'
+FROM ORDERS
+WHERE DATEPART(YEAR, ORDERDATE) BETWEEN '2018' AND '2020'
+GROUP BY DATEPART(YEAR, ORDERDATE)
+ORDER BY 1 ASC

@@ -1,10 +1,8 @@
 # 🛒 Retail Sales Intelligence
 ## Stakeholder-Driven Sales & Customer Analytics with SQL Server & Excel
 
-> **A deep dive into a Global Retailer’s Supply Chain Operations using SQL and Excel.**
-
 ---
-# 📖 Executive Summary
+## 📖 Executive Summary
 
 Modern retail organizations generate enormous volumes of transactional data across customers, products, stores, and sales channels. While this data holds significant strategic value, it often remains underutilized without structured analysis.
 
@@ -14,7 +12,7 @@ The findings provide actionable recommendations that can help retail executives 
 
 ---
 
-# 🎯 Business Objective
+## 🎯 Business Objective
 
 The objective of this project is to transform raw retail transaction data into meaningful business intelligence by answering key stakeholder questions using SQL and Excel.
 
@@ -29,7 +27,7 @@ Specifically, the analysis aims to:
 ---
 
 
-# 📂 Dataset Overview
+## 📂 Dataset Overview
 
 **Source**
 
@@ -49,7 +47,7 @@ This restructuring significantly improved:
 
 ---
 
-# 🏗️ Dimensioned Tables
+## 🏗️ Dimensioned Tables
 
 ### 👥 Customers
 
@@ -135,9 +133,6 @@ The following sections explore the business questions answered throughout this a
 
 What were the seasonal sales trends over the past three business years, and how did they vary across seasons?
 
-#### Order Trend by Month(2018-2020)
-
-
 ![Order Trend by Month sql table](assets/Order_by_month_of%20_the_Year_csv.png)
 
 ![Order Trend by Month chart](assets/Orders_2018_2019_2020_Chart.png)
@@ -155,6 +150,27 @@ What were the seasonal sales trends over the past three business years, and how 
 - A **significant decline in order volumes** was observed between **March and May** across all years. This recurring trend may be attributed to seasonal fluctuations, reduced consumer demand, or other external business factors.
 
 - **Sales activity rebounded considerably between October and December**, particularly in **2019**, suggesting a strong correlation with holiday shopping and year-end promotional campaigns.
+
+### 1b. How did order volumes fluctuate across the four seasons of the year?
+
+![Order Trend in Summer, Winter, Autumn & Spring](assets/Orders_by_Season_of_the_year_sql.png)
+
+![Order Trend in Summer, Winter, Autumn & Spring](assets/Orders_by_Season_of_the_year_Chart.png)
+
+*Figure 1b: Order by seasons of the year*
+
+In 2018, Winter and Autumn emerged as the dominant seasons for orders, collectively driving the highest order volumes for the year. 
+
+By 2019, which stands out as the most successful business year among the three, Winter and Autumn persist and maintained their position as the leading seasons, with Summer following closely in third place. In 2020, Winter once again outperformed all other seasons, solidifying its status as the peak period for sales. Across the three years, Winter consistently proved to be the most high-demand season, while Autumn also showed strong performance in 2018 and 2019, reinforcing its significance as a critical sales period.
+
+
+### 1c. Which days of the week consistently account for the highest demand and sales?
+
+![Orders trends per day of the week[2018-200]](assets/Orders_by_Day_of_the_week_sql.png)
+
+![Orders trends per day of the week[2018-200]](assets/Orders_by_Day_of_the_week_Charts.png)
+
+The chart reveals a consistent rise in order volumes throughout the week across 2018, 2019, and 2020. Sundays consistently record the lowest order volumes, while order numbers steadily increase, peaking on Saturdays. However, the highest demand days across the three years are Wednesdays, Thursdays, and Fridays, demonstrating consistent midweek and weekend activity.
 
 # 🛠 Tech Stack
 
