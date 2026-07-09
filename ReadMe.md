@@ -121,13 +121,12 @@ Attributes include:
 
 The following sections explore the business questions answered throughout this analysis, including:
 
-- 📈 Sales Trend Analysis
-- 🛍 Product Performance
-- 🏬Store Performances
-- 🌍 Geographic Analysis
-- 👥 Customer Insights
-- 💡 Key Findings
-- 🚀 Strategic Recommendations
+- 📈 [Sales Trend Analysis](#-seasonality-&-trend-analysis)
+- 🛍 [Product Performance](#-product-performances)
+- 🏬[Store Performances](#-store-performance)
+- 🌍 [Geographic Analysis](#-geographic-analysis)
+- 👥 [Customer Insights](#-customer-insights)
+- 🚀 [Strategic Recommendations](#-strategic-recommendations)
 
 ----
 
@@ -135,9 +134,10 @@ The following sections explore the business questions answered throughout this a
 
 **1a. What were the seasonal sales trends over the past three business years, and how did they vary across seasons?**
 
-![Order Trend by Month sql table](asset/Order%20by%20month%20of%20the%20Year.png)![Order Trend by Month chart](asset/Orders%202018%202019%202020%20Chart.png)
+![Order Trend by Month sql table](asset/Order%20by%20month%20of%20the%20Year.png)
 
-*Figure 1: Monthly order trends across the three business years*
+![Order Trend by Month chart](asset/Orders%202018%202019%202020%20Chart.png)
+
 
 ### 💡 Key Insight
 
@@ -159,11 +159,11 @@ The following sections explore the business questions answered throughout this a
 ![Order Trend in Summer, Winter, Autumn & Spring](asset/Orders_by_Season_of_the_year_Chart.png)
 
 
-In 2018, Winter and Autumn emerged as the dominant seasons for orders, collectively driving the highest order volumes for the year. 
+-   In 2018, Winter and Autumn emerged as the dominant seasons for orders, collectively driving the highest order volumes for the year. 
 
-By 2019, which stands out as the most successful business year among the three, Winter and Autumn persist and maintained their position as the leading seasons, with Summer following closely in third place. 
+-   By 2019, which stands out as the most successful business year among the three, Winter and Autumn persist and maintained their position as the leading seasons, with Summer following closely in third place. 
 
-In 2020, Winter once again outperformed all other seasons, solidifying its status as the peak period for sales. Across the three years, Winter consistently proved to be the most high-demand season, while Autumn also showed strong performance in 2018 and 2019, reinforcing its significance as a critical sales period.
+-   In 2020, Winter once again outperformed all other seasons, solidifying its status as the peak period for sales. Across the three years, Winter consistently proved to be the most high-demand season, while Autumn also showed strong performance in 2018 and 2019, reinforcing its significance as a critical sales period.
 
 
 **1c. Which days of the week consistently account for the highest demand and sales?**
@@ -172,7 +172,9 @@ In 2020, Winter once again outperformed all other seasons, solidifying its statu
 
 ![Orders trends per day of the week[2018-200]](asset/Orders_by_Day_of_the_week_Charts.png)
 
-The chart reveals a consistent rise in order volumes throughout the week across 2018, 2019, and 2020. Sundays consistently record the lowest order volumes, while order numbers steadily increase, peaking on Saturdays. However, the highest demand days across the three years are Wednesdays, Thursdays, and Fridays, demonstrating consistent midweek and weekend activity.
+-   The chart reveals a consistent rise in order volumes throughout the week across 2018, 2019, and 2020. 
+
+-   Sundays consistently record the lowest order volumes, while order numbers steadily increase, peaking on Saturdays. However, the highest demand days across the three years are Wednesdays, Thursdays, and Fridays, demonstrating consistent midweek and weekend activity.
 
 ---
 
@@ -185,7 +187,9 @@ The chart reveals a consistent rise in order volumes throughout the week across 
 ![Top revenue generating subcategories sql table](asset/Top_subcategories_by_revenue_Chart.png)
 *Figure 2a: Top revenue driving subcategories*
 
-The leading revenue-generating subcategory is Desktop Computers within the Computer category, contributing 17.77% of total revenue. This is closely followed by Televisions, Projectors/Screens, Water Heaters, and Camcorders, which collectively generate over $4.3 million, $3.7 million, $3.5 million, and $3.3 million, respectively. Completing the top 10 are Laptops ($3.16 million), Movie DVDs ($3.13 million), Touch Screen Phones ($3.08 million), Smartphones/PDAs ($2.80 million), and Refrigerators ($2.15 million).
+-   The leading revenue-generating subcategory is Desktop Computers within the Computer category, contributing 17.77% of total revenue. This is closely followed by Televisions, Projectors/Screens, Water Heaters, and Camcorders, which collectively generate over $4.3 million, $3.7 million, $3.5 million, and $3.3 million, respectively. 
+
+-   Completing the top 10 are Laptops ($3.16 million), Movie DVDs ($3.13 million), Touch Screen Phones ($3.08 million), Smartphones/PDAs ($2.80 million), and Refrigerators ($2.15 million).
 
 
 **2b. Which product categories are most effective at driving repeat purchases?**
@@ -195,9 +199,13 @@ The leading revenue-generating subcategory is Desktop Computers within the Compu
 ![Product categories with repeated purchases chart](asset/Product_Category_pushing_repeated_sales_Charts.png)
 *Figure 2b: Product categories driving repeated purchases*
 
-The computers category contributes most to repeated orders with a total of 11,460, accounting for 22.18% of all repeated purchases across categories. Following this, Cell Phones secure second place with 8,400 repeated orders, contributing 16.26% to the total. Music, Movies, and Audio Books rank third, with 7,523 repeated orders, making up 14.56%. The Audio category follows closely with 6,140 repeated orders (11.88%), while Games and Toys round out the top five, contributing 5,809 repeated orders (11.24%). These insights highlight the most customer-loyal categories, providing opportunities to further enhance customer retention strategies.
+-   The computers category contributes most to repeated orders with a total of 11,460, accounting for 22.18% of all repeated purchases across categories. 
 
+-   Following this, Cell Phones secure second place with 8,400 repeated orders, contributing 16.26% to the total. 
 
+-   Music, Movies, and Audio Books rank third, with 7,523 repeated orders, making up 14.56%. The Audio category follows closely with 6,140 repeated orders (11.88%), while Games and Toys round out the top five, contributing 5,809 repeated orders (11.24%). 
+
+-   These insights highlight the most customer-loyal categories, providing opportunities to further enhance customer retention strategies.
 
 #### 2c. Which products are the most profitable based on the difference between product cost and product price?
 
@@ -205,7 +213,9 @@ The computers category contributes most to repeated orders with a total of 11,46
 
 ![Most profitable Products](asset/top_perfoming_products_based_on_difference_btw_cost_and_price_chart.png)
 
-The top-performing products by profit are distinguished by narrow profit margins, with WWI Desktop PC2.33 X2330 Black leading the category, generating $337,985.99 in profit, accounting for approximately 1.03% of total profits. Following closely are Adventure Works Desktop PC2.33 XD233 Silver with a profit contribution of 0.95% and Adventure Works Desktop PC2.33 XD233 Brown at 0.95%. Other notable entries include Adventure Works Desktop PC2.33 XD233 Black (0.92%), Adventure Works Desktop PC2.33 XD233 White (0.89%), and WWI Desktop PC2.33 X2330 White (0.87%), completing the top six.
+-   The top-performing products by profit are distinguished by narrow profit margins, with WWI Desktop PC2.33 X2330 Black leading the category, generating $337,985.99 in profit, accounting for approximately 1.03% of total profits. 
+
+-   Following closely are Adventure Works Desktop PC2.33 XD233 Silver with a profit contribution of 0.95% and Adventure Works Desktop PC2.33 XD233 Brown at 0.95%. Other notable entries include Adventure Works Desktop PC2.33 XD233 Black (0.92%), Adventure Works Desktop PC2.33 XD233 White (0.89%), and WWI Desktop PC2.33 X2330 White (0.87%), completing the top six.
 
 ## 3. 🏪 Store Performance 
 
@@ -216,7 +226,11 @@ The top-performing products by profit are distinguished by narrow profit margins
 ![Stores sales volume and revenue](asset/Stores_by_and_Sales_Volume_and_Revenue_Charts.png)
 
 
-The chart highlights the correlation between sales volume and revenue generated across various store locations. The United States leads both metrics with a total sales volume of 83,638 and gross revenue of $23.764M, contributing a dominant 42.62% of total revenue. The Online channel follows, with a sales volume of 41,311 (20.89%) and revenue of $11.404M (20.45%). The United Kingdom, Germany, and Canada round out the top five, with sales volumes of 20,625 (10.43%), 14,880 (7.51%), and 12,991 (6.57%), and revenues of $5.750M (10.31%), $4.246M (7.62%), and $3.612M (6.48%), respectively.
+-   The chart highlights the correlation between sales volume and revenue generated across various store locations. 
+
+-   The United States leads both metrics with a total sales volume of 83,638 and gross revenue of $23.764M, contributing a dominant 42.62% of total revenue. 
+
+-   The Online channel follows, with a sales volume of 41,311 (20.89%) and revenue of $11.404M (20.45%). The United Kingdom, Germany, and Canada round out the top five, with sales volumes of 20,625 (10.43%), 14,880 (7.51%), and 12,991 (6.57%), and revenues of $5.750M (10.31%), $4.246M (7.62%), and $3.612M (6.48%), respectively.
 
 ----
 
@@ -230,7 +244,11 @@ The chart highlights the correlation between sales volume and revenue generated 
 
 ![Top Customers by Total Spend and demography](asset/Customers_by_Total_Spend_Graph_table.png)
 
-Matthew Flemming, aged 88, stands out as the top spender with a total expenditure of $61,871.70, far exceeding the other high-spending customers. Karen Jones follows with $43,517.80, and Zrina Topic is third with $42,788.04. Other significant contributors include Stefanie Hartmann ($41,521.53), Stephan Rothstein ($40,556.54), and Gaspare Trevisan ($40,225.54), making up the top six customers in terms of total spending. These individuals represent a significant portion of revenue and merit focused engagement.
+-   Matthew Flemming, aged 88, stands out as the top spender with a total expenditure of $61,871.70, far exceeding the other high-spending customers. 
+
+-   Karen Jones follows with $43,517.80, and Zrina Topic is third with $42,788.04. Other significant contributors include Stefanie Hartmann ($41,521.53), Stephan Rothstein ($40,556.54), and Gaspare Trevisan ($40,225.54), making up the top six customers in terms of total spending. 
+
+-   These individuals represent a significant portion of revenue and merit focused engagement.
 
 #### 4b. Who are the top customers by Most Orders or repeated patronage, and what is their demographic profile (age, gender, location)?
 
@@ -239,9 +257,13 @@ Matthew Flemming, aged 88, stands out as the top spender with a total expenditur
 ![Top customers by repeated patronage visuals](asset/Repeated%20Patronage%20Table%20Chart.png)
 
 
-Gaspare Trevisan, aged 33, emerges as the top customer by repeated patronage, recording a remarkable 14 repeated orders. He is followed by Delmer Martinez, aged 74, with 12 repeated orders, demonstrating strong loyalty despite his senior age. Katherine Rosales, aged 38, ranks third with 11 repeated orders, showcasing consistent engagement with the brand.
+-   Gaspare Trevisan, aged 33, emerges as the top customer by repeated patronage, recording a remarkable 14 repeated orders. He is followed by Delmer Martinez, aged 74, with 12 repeated orders, demonstrating strong loyalty despite his senior age. 
 
-Other notable contributors include René Fuerst, aged 64, and Jens Himmel, aged 61, both from Germany, along with Uriele Marcelo, aged 59, from Italy, each recording 10 repeated orders. Elizabeth Butler, aged 25, from the United Kingdom, and Edward Rose, aged 46, also from the United Kingdom, further highlight the global distribution of loyal customers, each contributing 10 repeated orders.
+-   Katherine Rosales, aged 38, ranks third with 11 repeated orders, showcasing consistent engagement with the brand.
+
+-   Other notable contributors include René Fuerst, aged 64, and Jens Himmel, aged 61, both from Germany, along with Uriele Marcelo, aged 59, from Italy, each recording 10 repeated orders. 
+
+-   Elizabeth Butler, aged 25, from the United Kingdom, and Edward Rose, aged 46, also from the United Kingdom, further highlight the global distribution of loyal customers, each contributing 10 repeated orders.
 
 
 #### 4c. What’s the average Order value by age Category or groups.
@@ -251,7 +273,9 @@ Other notable contributors include René Fuerst, aged 64, and Jens Himmel, aged 
 ![AOV by Age group](asset/Average_Order_value_by_age_groups_Charts.csv.png)
 
 
-There is not a wide or significant difference in average order value across the age groups. Albeit Customers aged 31–40 years lead with the highest average order value ($899.16), followed closely by those aged 41–50 years ($893.66) and 71+ years ($891.57). Other age groups show minor differences, with those under 25 having the lowest value ($841.08).
+-   There is not a wide or significant difference in average order value across the age groups. 
+
+-   Albeit Customers aged 31–40 years lead with the highest average order value ($899.16), followed closely by those aged 41–50 years ($893.66) and 71+ years ($891.57). Other age groups show minor differences, with those under 25 having the lowest value ($841.08).
 
 --------
 
@@ -262,7 +286,9 @@ There is not a wide or significant difference in average order value across the 
 ![Country with most Sales?](asset/Country%20By%20Total%20Sales%20Snapshot.png)
 ![Country with most Sales?](asset/Country_by_Total_Sales_Chart.png)
 
-The United States dominates sales with over half the total volume (106,407), followed by the United Kingdom (25,298) and Germany (18,943). Other key markets include Canada (16,793) and Australia (9,209). Italy, the Netherlands, and France contribute moderately with 8,470, 7,252, and 5,385, respectively.
+-   The United States dominates sales with over half the total volume (106,407), followed by the United Kingdom (25,298) and Germany (18,943). Other key markets include Canada (16,793) and Australia (9,209). 
+
+-   Italy, the Netherlands, and France contribute moderately with 8,470, 7,252, and 5,385, respectively.
 
 #### 5b. Which Countries generated the highest revenue?
 
@@ -312,7 +338,9 @@ The United States leads in revenue generation with $29,871,631.31 (53.58% of tot
 
 ## Conclusion
 
-The primary objective of this analysis was to address key business questions raised by stakeholders, providing them with valuable insights into historical trends and the current state of the business. This comprehensive analysis touched on various dimensions of the global retail company’s operations, revealing critical insights into orders over time, top-performing products, high-demand regions, and key customer segments. In line with the discoveries from the data, actionable recommendations have been proposed to empower stakeholders with strategies to streamline operations, enhance customer satisfaction and loyalty, drive revenue growth, and expand market reach. These insights serve as a foundation for informed decision-making and sustained business success.
+-   The primary objective of this analysis was to address key business questions raised by stakeholders, providing them with valuable insights into historical trends and the current state of the business. This comprehensive analysis touched on various dimensions of the global retail company’s operations, revealing critical insights into orders over time, top-performing products, high-demand regions, and key customer segments. 
+
+-   In line with the discoveries from the data, actionable recommendations have been proposed to empower stakeholders with strategies to streamline operations, enhance customer satisfaction and loyalty, drive revenue growth, and expand market reach. These insights serve as a foundation for informed decision-making and sustained business success.
 
 
 # 🛠 Tech Stack
