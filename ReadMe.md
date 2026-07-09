@@ -130,7 +130,7 @@ The following sections explore the business questions answered throughout this a
 
 ----
 
-## 1. Seasonality & Trend Analysis
+## 1. 📈 Seasonality & Trend Analysis
 
 **1a. What were the seasonal sales trends over the past three business years, and how did they vary across seasons?**
 
@@ -159,7 +159,6 @@ The following sections explore the business questions answered throughout this a
 
 ![Order Trend in Summer, Winter, Autumn & Spring](assets/Orders_by_Season_of_the_year_Chart.png)
 
-*Figure 1b: Order by seasons of the year*
 
 In 2018, Winter and Autumn emerged as the dominant seasons for orders, collectively driving the highest order volumes for the year. 
 
@@ -178,7 +177,7 @@ The chart reveals a consistent rise in order volumes throughout the week across 
 
 ---
 
-## 2. Product Performances 
+## 2. 🛒 Product Performances 
 
 **2a. Which product subcategories contribute the most to overall revenue?**
 
@@ -254,6 +253,68 @@ Other notable contributors include René Fuerst, aged 64, and Jens Himmel, aged 
 
 
 There is not a wide or significant difference in average order value across the age groups. Albeit Customers aged 31–40 years lead with the highest average order value ($899.16), followed closely by those aged 41–50 years ($893.66) and 71+ years ($891.57). Other age groups show minor differences, with those under 25 having the lowest value ($841.08).
+
+--------
+
+## 5. 🌍 Geographic Analysis
+
+#### 5a. Which Countries contributed most in sales?
+
+![Country with most Sales?](asset/Country%20By%20Total%20Sales%20Snapshot.png)
+![Country with most Sales?](asset/Country_by_Total_Sales_Chart.png)
+
+The United States dominates sales with over half the total volume (106,407), followed by the United Kingdom (25,298) and Germany (18,943). Other key markets include Canada (16,793) and Australia (9,209). Italy, the Netherlands, and France contribute moderately with 8,470, 7,252, and 5,385, respectively.
+
+#### 5b. 5b. Which Countries generated the highest revenue?
+
+![COuntry with most revenue?](asset/Country_By_Revenue_snapshot.png)
+
+![COuntry with most revenue?](asset/Country_By_Revenue_Chart.png)
+
+The United States leads in revenue generation with $29,871,631.31 (53.58% of total revenue). The United Kingdom follows at $7,084,088 (12.71%), with Germany in third, contributing $5,414,149.79 (9.71%). Canada rounds out the top four with $4,724,334.63 (8.47%).
+
+----
+## 🚀 Strategic Recommendations
+
+### 📈 Seasonality Trends
+
+-   Perform a deeper analysis to investigate and understand the causes of the sales drop during this period March–May Decline and also Leverage Late-Year Performance as seen in October–December and amplify year-end marketing efforts with discounts, promotional campaigns, incentives to capitalize on holiday-driven demand.
+
+-   Analyze the strategies that contributed to 2019’s success. Replicate effective campaigns, pricing strategies, or operational efficiencies to improve future performance.
+
+-   Focus on Winter Campaigns: With Winter consistently leading in order volumes, prioritize marketing efforts, promotions, and inventory planning during this season.
+
+-   Inventory Management/Operational Optimization: Ensure sufficient stock levels to meet increased demand during peak days and allocate adequate staff and system resources to handle the higher order volumes efficiently on high-demand days.
+
+### 🌎 Geographic Distributions
+-   Maximize U.S. Market Potential: The U.S represent the most active and vibrant markets so a recommended call to action is for the global retailing agency to leverage the United States’ strong sales performance by introducing loyalty programs, targeted promotions, and expanding product offerings.
+
+-   Consolidate Online Sales Experience: Leverage online channel’s significant contribution by optimizing website performance and also offering competitive shipping options.
+
+-   Expand Presence in Emerging Markets: Focus on increasing sales in promising regions like Canada and Germany by tailoring products to local preferences and enhancing marketing campaigns and analyze Low-Performing Locations to identify challenges and implement corrective strategies.
+
+### 🫂 Customers Performance.
+-   Tailor communication and services to notable high-value customers to strengthen loyalty by regularly checking in on their satisfaction levels and send personalized thank-you notes or gifts as a gesture of appreciation for their loyalty.
+
+-   Introduce tier-based loyalty programs offering rewards such as free delivery, early access to new products, or priority support to handle their inquiries or complaints.
+
+-   Analyze purchasing patterns of these top customers to identify opportunities for cross-selling or upselling and use predictive analytics to anticipate their needs and offer proactive recommendations.
+
+-   Target marketing efforts and promotions at customers aged 31–50 years and 71+ years, as they demonstrate the highest spending potential. Offer personalized incentives to younger customers (under 25) to encourage higher spending.
+
+### Products Performance.
+-   Boost Availability and Marketing of Top Performing products: Prioritize inventory and promotions for the top profit-generating products to capitalize on their strong market demand.
+
+-   Strategic Focus on top Categories and Subcategories: Prioritize marketing and promotional efforts for the top revenue-generating subcategories, particularly Desktops and Televisions, to sustain and enhance their performance.
+
+-   Bundle Offers and Cross-Selling: Develop bundle deals (e.g., laptops with accessories) and cross-sell related products to maximize revenue from high-demand categories.
+
+-   Inventory and Stock Management: Ensure optimal inventory levels for the top-performing subcategories to meet customer demand seamlessly.
+
+## Conclusion
+
+The primary objective of this analysis was to address key business questions raised by stakeholders, providing them with valuable insights into historical trends and the current state of the business. This comprehensive analysis touched on various dimensions of the global retail company’s operations, revealing critical insights into orders over time, top-performing products, high-demand regions, and key customer segments. In line with the discoveries from the data, actionable recommendations have been proposed to empower stakeholders with strategies to streamline operations, enhance customer satisfaction and loyalty, drive revenue growth, and expand market reach. These insights serve as a foundation for informed decision-making and sustained business success.
+
 
 # 🛠 Tech Stack
 
