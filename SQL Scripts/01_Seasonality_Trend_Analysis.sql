@@ -67,3 +67,24 @@ FROM ORDERS
 WHERE DATEPART(YEAR, ORDERDATE) BETWEEN '2018' AND '2020'
 GROUP BY DATEPART(YEAR, ORDERDATE)
 ORDER BY 1 ASC
+
+-- 1c. Which days of the week consistently account for the highest demand and sales?
+-- Sales By Day 
+SELECT  DATEPART(WEEKDAY,ORDERDATE) AS Number,
+        DATENAME(WEEKDAY, ORDERDATE) AS [Days of the Week],
+        SUM(CASE
+              WHEN DATENAME(YEAR, OrderDate) = '2018' THEN 1
+            END
+         ) AS '2018',
+        SUM(CASE
+              WHEN DATENAME(YEAR, OrderDate) = '2019' THEN 1
+            END
+         ) AS '2019',
+        SUM(CASE
+              WHEN DATENAME(YEAR, OrderDate) = '2020' THEN 1
+           END
+         ) AS '2020'
+FROM Orders
+GROUP BY DATEPART(WEEKDAY,ORDERDATE),
+   DATENAME(WEEKDAY, ORDERDATE)
+ORDER BY 1 ASC

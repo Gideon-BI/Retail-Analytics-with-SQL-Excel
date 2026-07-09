@@ -128,10 +128,11 @@ The following sections explore the business questions answered throughout this a
 - 💡 Key Findings
 - 🚀 Strategic Recommendations
 
+----
 
 ## 1. Seasonality & Trend Analysis
 
-What were the seasonal sales trends over the past three business years, and how did they vary across seasons?
+**1a. What were the seasonal sales trends over the past three business years, and how did they vary across seasons?**
 
 ![Order Trend by Month sql table](assets/Order_by_month_of%20_the_Year_csv.png)
 
@@ -151,7 +152,8 @@ What were the seasonal sales trends over the past three business years, and how 
 
 - **Sales activity rebounded considerably between October and December**, particularly in **2019**, suggesting a strong correlation with holiday shopping and year-end promotional campaigns.
 
-### 1b. How did order volumes fluctuate across the four seasons of the year?
+
+**1b. How did order volumes fluctuate across the four seasons of the year?**
 
 ![Order Trend in Summer, Winter, Autumn & Spring](assets/Orders_by_Season_of_the_year_sql.png)
 
@@ -161,16 +163,47 @@ What were the seasonal sales trends over the past three business years, and how 
 
 In 2018, Winter and Autumn emerged as the dominant seasons for orders, collectively driving the highest order volumes for the year. 
 
-By 2019, which stands out as the most successful business year among the three, Winter and Autumn persist and maintained their position as the leading seasons, with Summer following closely in third place. In 2020, Winter once again outperformed all other seasons, solidifying its status as the peak period for sales. Across the three years, Winter consistently proved to be the most high-demand season, while Autumn also showed strong performance in 2018 and 2019, reinforcing its significance as a critical sales period.
+By 2019, which stands out as the most successful business year among the three, Winter and Autumn persist and maintained their position as the leading seasons, with Summer following closely in third place. 
+
+In 2020, Winter once again outperformed all other seasons, solidifying its status as the peak period for sales. Across the three years, Winter consistently proved to be the most high-demand season, while Autumn also showed strong performance in 2018 and 2019, reinforcing its significance as a critical sales period.
 
 
-### 1c. Which days of the week consistently account for the highest demand and sales?
+**1c. Which days of the week consistently account for the highest demand and sales?**
 
 ![Orders trends per day of the week[2018-200]](assets/Orders_by_Day_of_the_week_sql.png)
 
 ![Orders trends per day of the week[2018-200]](assets/Orders_by_Day_of_the_week_Charts.png)
 
 The chart reveals a consistent rise in order volumes throughout the week across 2018, 2019, and 2020. Sundays consistently record the lowest order volumes, while order numbers steadily increase, peaking on Saturdays. However, the highest demand days across the three years are Wednesdays, Thursdays, and Fridays, demonstrating consistent midweek and weekend activity.
+
+---
+
+## 2. Product Performances 
+
+**2a. Which product subcategories contribute the most to overall revenue?**
+
+![Top revenue generating subcategories sql table](assets/Subcategories_by_revenue_sql.png)
+
+![Top revenue generating subcategories sql table](assets/Top_subcategories_by_revenue_Chart.png)
+*Figure 2a: Top revenue driving subcategories*
+
+The leading revenue-generating subcategory is Desktop Computers within the Computer category, contributing 17.77% of total revenue. This is closely followed by Televisions, Projectors/Screens, Water Heaters, and Camcorders, which collectively generate over $4.3 million, $3.7 million, $3.5 million, and $3.3 million, respectively. Completing the top 10 are Laptops ($3.16 million), Movie DVDs ($3.13 million), Touch Screen Phones ($3.08 million), Smartphones/PDAs ($2.80 million), and Refrigerators ($2.15 million).
+
+
+**2b. Which product categories are most effective at driving repeat purchases?**
+
+![Product categories with repeated purchases sql table](assets/Product_Category_pushing_repeated_sales_sql.png)
+
+![Product categories with repeated purchases chart](assets/Product_Category_pushing_repeated_sales_Charts.png)
+*Figure 2b: Product categories driving repeated purchases*
+
+The computers category contributes most to repeated orders with a total of 11,460, accounting for 22.18% of all repeated purchases across categories. Following this, Cell Phones secure second place with 8,400 repeated orders, contributing 16.26% to the total. Music, Movies, and Audio Books rank third, with 7,523 repeated orders, making up 14.56%. The Audio category follows closely with 6,140 repeated orders (11.88%), while Games and Toys round out the top five, contributing 5,809 repeated orders (11.24%). These insights highlight the most customer-loyal categories, providing opportunities to further enhance customer retention strategies.
+
+
+
+
+
+
 
 # 🛠 Tech Stack
 
