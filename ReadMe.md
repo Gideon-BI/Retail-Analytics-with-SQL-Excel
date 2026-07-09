@@ -119,13 +119,18 @@ Attributes include:
 
 ## 📌 Next Section
 
-The following sections explore the business questions answered throughout this analysis, including:
+The following sections explore the business questions answered throughout this analysis, including:(Click on any to navigate to the specific section)
 
 - 📈 [Sales Trend Analysis](#-seasonality-&-trend-analysis)
-- 🛍 [Product Performance](#-product-performances)
-- 🏬[Store Performances](#-store-performance)
-- 🌍 [Geographic Analysis](#-geographic-analysis)
+
+- 🛍 [Product Performances](#-product-performances)
+
+- 🏬[Store Performance](#-store-performance)
+
 - 👥 [Customer Insights](#-customer-insights)
+
+- 🌍 [Geographic Analysis](#-geographic-analysis)
+
 - 🚀 [Strategic Recommendations](#-strategic-recommendations)
 
 ----
@@ -185,7 +190,7 @@ The following sections explore the business questions answered throughout this a
 ![Top revenue generating subcategories sql table](asset/Subcategories_by_revenue_sql.png)
 
 ![Top revenue generating subcategories sql table](asset/Top_subcategories_by_revenue_Chart.png)
-*Figure 2a: Top revenue driving subcategories*
+
 
 -   The leading revenue-generating subcategory is Desktop Computers within the Computer category, contributing 17.77% of total revenue. This is closely followed by Televisions, Projectors/Screens, Water Heaters, and Camcorders, which collectively generate over $4.3 million, $3.7 million, $3.5 million, and $3.3 million, respectively. 
 
@@ -343,12 +348,11 @@ The United States leads in revenue generation with $29,871,631.31 (53.58% of tot
 -   In line with the discoveries from the data, actionable recommendations have been proposed to empower stakeholders with strategies to streamline operations, enhance customer satisfaction and loyalty, drive revenue growth, and expand market reach. These insights serve as a foundation for informed decision-making and sustained business success.
 
 
-# 🛠 Tech Stack
+### 🛠 Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
 | SQL Server | Data Extraction & Analysis |
 | Microsoft Excel | Data Exploration & Visualization |
 | T-SQL | Business Query Development |
-| Snowflake Schema | Database Design |
 | GitHub | Portfolio Documentation |
