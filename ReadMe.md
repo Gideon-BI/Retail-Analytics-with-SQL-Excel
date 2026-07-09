@@ -137,7 +137,7 @@ The following sections explore the business questions answered throughout this a
 
 ## 1. 📈 Seasonality & Trend Analysis
 
-### 1a. What were the seasonal sales trends over the past three business years, and how did they vary across seasons?**
+### 1a. What were the seasonal sales trends over the past three business years, and how did they vary across seasons?
 
 ![Order Trend by Month sql table](asset/Order%20by%20month%20of%20the%20Year.png)
 
@@ -284,7 +284,7 @@ The following sections explore the business questions answered throughout this a
 
 ## 5. 🌍 Geographic Analysis
 
-#### 5a. Which Countries contributed most in sales?
+### 5a. Which Countries contributed most in sales?
 
 ![Country with most Sales?](asset/Country%20By%20Total%20Sales%20Snapshot.png)
 ![Country with most Sales?](asset/Country_by_Total_Sales_Chart.png)
@@ -293,7 +293,7 @@ The following sections explore the business questions answered throughout this a
 
 -   Italy, the Netherlands, and France contribute moderately with 8,470, 7,252, and 5,385, respectively.
 
-#### 5b. Which Countries generated the highest revenue?
+### 5b. Which Countries generated the highest revenue?
 
 ![Country with most revenue?](asset/Country_By_Revenue_snapshot.png)
 
