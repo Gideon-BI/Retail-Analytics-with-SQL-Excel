@@ -56,3 +56,30 @@ SELECT pr.[Product Category],
 FROM ProductRepeatCategories AS pr
 GROUP BY pr.[Product Category]
 ORDER BY 2 DESC
+
+
+-- 2c. Which products are the most profitable based on the difference between product cost and product price?
+
+SELECT TOP 10 Product,
+       SUM(Revenue - [Total Production Cost]) AS Profit,
+       ROUND((SUM(Revenue - [Total Production Cost]) * 100.0) /
+       (SELECT SUM(Revenue - [Total Production Cost])
+        FROM (
+            SELECT  ROUND(SUM([Transactions Fact].Quantity * Product.ProductCost), 2) AS [Total Production Cost],
+            ROUND(SUM([Transactions Fact].Quantity * Product.ProductPrice), 2) AS Revenue
+            FROM [Transactions Fact]
+            JOIN Product ON [Transactions Fact].ProductID = Product.ProductID
+               GROUP BY Product.ProductName
+            ) AS Subquery),2) AS [Profit in %]
+
+FROM (
+    SELECT Product.ProductName AS Product,
+           ROUND(SUM([Transactions Fact].Quantity * Product.ProductCost), 2) AS [Total Production Cost],
+           ROUND(SUM([Transactions Fact].Quantity * Product.ProductPrice), 2) AS Revenue
+    FROM [Transactions Fact]
+    JOIN Product ON [Transactions Fact].ProductID = Product.ProductID
+    GROUP BY Product.ProductName
+) AS Product_Cost_Plus_Revenue
+GROUP BY Product
+ORDER BY Profit DESC;
+

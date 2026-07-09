@@ -201,6 +201,15 @@ The computers category contributes most to repeated orders with a total of 11,46
 
 
 
+#### 2c. Which products are the most profitable based on the difference between product cost and product price?
+
+![Most profitable Products](assets/Top_Performing_Product_Based%20on_difference_between_ProductCost_and_ProductPrice.png)
+
+![Most profitable Products](assets/top_perfoming_products_based_on_difference_btw_cost_and_price_chart.png)
+
+
+
+
 
 
 
