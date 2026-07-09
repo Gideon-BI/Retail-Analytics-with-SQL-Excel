@@ -247,7 +247,7 @@ Other notable contributors include René Fuerst, aged 64, and Jens Himmel, aged 
 
 #### 4c. What’s the average Order value by age Category or groups.
 
-![AOV by Age group](asset/Average_Order_value_by_agegroups%20sql.png)
+![AOV by Age group](asset/Average_Order_value_by_age_groups%20sql.png)
 
 ![AOV by Age group](asset/Average_Order_value_by_age_groups_Charts.csv.png)
 
