@@ -74,3 +74,34 @@ GROUP BY  O.CustomerID,
 HAVING 
       COUNT(DISTINCT OrderNUMBER) > 1
 ORDER BY 8 DESC
+
+
+-- 4c. What’s the average Order value by age Category or groups.
+
+-- Average Order Value By Age Category or groups
+SELECT 
+      CASE
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) < 25 THEN 'Under 25'
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 26 AND 30 THEN '26-30 Years'
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 31 AND 40 THEN '31-40 Years '
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 41 AND 50 THEN '41-50 Years'
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 51 AND 60 THEN '51-60 Years'
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 61 AND 70 THEN '61-70 Years'
+         ELSE '71+ Years'
+       END AS [Age Group],
+ ROUND(AVG([Transactions Fact].Quantity * Product.ProductPrice),2) AS [Average Order Value]
+ FROM Customers
+ JOIN Orders ON Orders.CustomerID = Customers.CustomerID
+ JOIN [Transactions Fact] ON [Transactions Fact].OrderNumber = Orders.OrderNUmber
+ JOIN product ON Product.ProductID = [Transactions Fact].ProductID
+ GROUP BY
+      CASE
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) < 25 THEN 'Under 25'
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 26 AND 30 THEN '26-30 Years'
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 31 AND 40 THEN '31-40 Years '
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 41 AND 50 THEN '41-50 Years'
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 51 AND 60 THEN '51-60 Years'
+         WHEN DATEDIFF(YEAR, Date_of_Birth, GetDate()) BETWEEN 61 AND 70 THEN '61-70 Years'
+         ELSE '71+ Years'
+      END 
+ ORDER BY 2 DESC

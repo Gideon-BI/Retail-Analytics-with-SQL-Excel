@@ -241,6 +241,20 @@ Matthew Flemming, aged 88, stands out as the top spender with a total expenditur
 ![Top customers by repeated patronage visuals](asset/Repeated%20Patronage%20Table%20Chart.png)
 
 
+Gaspare Trevisan, aged 33, emerges as the top customer by repeated patronage, recording a remarkable 14 repeated orders. He is followed by Delmer Martinez, aged 74, with 12 repeated orders, demonstrating strong loyalty despite his senior age. Katherine Rosales, aged 38, ranks third with 11 repeated orders, showcasing consistent engagement with the brand.
+
+Other notable contributors include René Fuerst, aged 64, and Jens Himmel, aged 61, both from Germany, along with Uriele Marcelo, aged 59, from Italy, each recording 10 repeated orders. Elizabeth Butler, aged 25, from the United Kingdom, and Edward Rose, aged 46, also from the United Kingdom, further highlight the global distribution of loyal customers, each contributing 10 repeated orders.
+
+
+#### 4c. What’s the average Order value by age Category or groups.
+
+![AOV by Age group](asset/Average_Order_value_by_agegroups%20sql.png)
+
+![AOV by Age group](asset/Average_Order_value_by_age_groups_Charts.csv.png)
+
+
+There is not a wide or significant difference in average order value across the age groups. Albeit Customers aged 31–40 years lead with the highest average order value ($899.16), followed closely by those aged 41–50 years ($893.66) and 71+ years ($891.57). Other age groups show minor differences, with those under 25 having the lowest value ($841.08).
+
 # 🛠 Tech Stack
 
 | Technology | Purpose |
