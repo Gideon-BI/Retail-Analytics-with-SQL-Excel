@@ -209,9 +209,36 @@ The computers category contributes most to repeated orders with a total of 11,46
 
 The top-performing products by profit are distinguished by narrow profit margins, with WWI Desktop PC2.33 X2330 Black leading the category, generating $337,985.99 in profit, accounting for approximately 1.03% of total profits. Following closely are Adventure Works Desktop PC2.33 XD233 Silver with a profit contribution of 0.95% and Adventure Works Desktop PC2.33 XD233 Brown at 0.95%. Other notable entries include Adventure Works Desktop PC2.33 XD233 Black (0.92%), Adventure Works Desktop PC2.33 XD233 White (0.89%), and WWI Desktop PC2.33 X2330 White (0.87%), completing the top six.
 
+## 3. 🏪 Store Performance 
+
+#### How did different store locations perform in terms of sales volume and revenue?
+
+![Stores sales volume and revenue](asset/Stores_by_Sales_Volume_and_Revenue.png)
+
+![Stores sales volume and revenue](asset/Stores_by_and_Sales_Volume_and_Revenue_Charts.png)
 
 
+The chart highlights the correlation between sales volume and revenue generated across various store locations. The United States leads both metrics with a total sales volume of 83,638 and gross revenue of $23.764M, contributing a dominant 42.62% of total revenue. The Online channel follows, with a sales volume of 41,311 (20.89%) and revenue of $11.404M (20.45%). The United Kingdom, Germany, and Canada round out the top five, with sales volumes of 20,625 (10.43%), 14,880 (7.51%), and 12,991 (6.57%), and revenues of $5.750M (10.31%), $4.246M (7.62%), and $3.612M (6.48%), respectively.
 
+----
+
+
+## 4. 👥 Customer Insights
+
+#### 4a.  Who are the top customers by total spending, and what is their demographic profile (age, gender, location)?
+
+
+![Top Customers by Total Spend and demography](asset/Customers_by_Total_Spend_sql.png)
+
+![Top Customers by Total Spend and demography](asset/Customers_by_Total_Spend_Graph_table.png)
+
+Matthew Flemming, aged 88, stands out as the top spender with a total expenditure of $61,871.70, far exceeding the other high-spending customers. Karen Jones follows with $43,517.80, and Zrina Topic is third with $42,788.04. Other significant contributors include Stefanie Hartmann ($41,521.53), Stephan Rothstein ($40,556.54), and Gaspare Trevisan ($40,225.54), making up the top six customers in terms of total spending. These individuals represent a significant portion of revenue and merit focused engagement.
+
+#### 4b. Who are the top customers by Most Orders or repeated patronage, and what is their demographic profile (age, gender, location)?
+
+![Top customers by repeated patronage sql table](asset/Repeated%20Patronage%20SQL%20snapshot.png)
+
+![Top customers by repeated patronage visuals](asset/Repeated%20Patronage%20Table%20Chart.png)
 
 
 # 🛠 Tech Stack
