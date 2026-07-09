@@ -137,14 +137,12 @@ The following sections explore the business questions answered throughout this a
 
 ## 1. 📈 Seasonality & Trend Analysis
 
-**1a. What were the seasonal sales trends over the past three business years, and how did they vary across seasons?**
+### 1a. What were the seasonal sales trends over the past three business years, and how did they vary across seasons?**
 
 ![Order Trend by Month sql table](asset/Order%20by%20month%20of%20the%20Year.png)
 
 ![Order Trend by Month chart](asset/Orders%202018%202019%202020%20Chart.png)
 
-
-### 💡 Key Insight
 
 - **2019 recorded the highest order volumes** across most months, particularly during the second half of the year, making it the strongest-performing year in the analysis period. This suggests that favorable business strategies or market conditions positively influenced sales performance.
 
@@ -157,7 +155,7 @@ The following sections explore the business questions answered throughout this a
 - **Sales activity rebounded considerably between October and December**, particularly in **2019**, suggesting a strong correlation with holiday shopping and year-end promotional campaigns.
 
 
-**1b. How did order volumes fluctuate across the four seasons of the year?**
+### 1b. How did order volumes fluctuate across the four seasons of the year?
 
 ![Order Trend in Summer, Winter, Autumn & Spring](asset/Orders_by_Season_of_the_year_sql.png)
 
@@ -171,7 +169,7 @@ The following sections explore the business questions answered throughout this a
 -   In 2020, Winter once again outperformed all other seasons, solidifying its status as the peak period for sales. Across the three years, Winter consistently proved to be the most high-demand season, while Autumn also showed strong performance in 2018 and 2019, reinforcing its significance as a critical sales period.
 
 
-**1c. Which days of the week consistently account for the highest demand and sales?**
+### 1c. Which days of the week consistently account for the highest demand and sales?
 
 ![Orders trends per day of the week[2018-200]](asset/Orders_by_Day_of_the_week_sql.png)
 
@@ -185,7 +183,7 @@ The following sections explore the business questions answered throughout this a
 
 ## 2. 🛒 Product Performances 
 
-**2a. Which product subcategories contribute the most to overall revenue?**
+### 2a. Which product subcategories contribute the most to overall revenue?
 
 ![Top revenue generating subcategories sql table](asset/Subcategories_by_revenue_sql.png)
 
@@ -197,12 +195,12 @@ The following sections explore the business questions answered throughout this a
 -   Completing the top 10 are Laptops ($3.16 million), Movie DVDs ($3.13 million), Touch Screen Phones ($3.08 million), Smartphones/PDAs ($2.80 million), and Refrigerators ($2.15 million).
 
 
-**2b. Which product categories are most effective at driving repeat purchases?**
+### 2b. Which product categories are most effective at driving repeat purchases?
 
 ![Product categories with repeated purchases sql table](asset/Product_Category_pushing_repeated_sales_sql.png)
 
 ![Product categories with repeated purchases chart](asset/Product_Category_pushing_repeated_sales_Charts.png)
-*Figure 2b: Product categories driving repeated purchases*
+
 
 -   The computers category contributes most to repeated orders with a total of 11,460, accounting for 22.18% of all repeated purchases across categories. 
 
@@ -212,7 +210,7 @@ The following sections explore the business questions answered throughout this a
 
 -   These insights highlight the most customer-loyal categories, providing opportunities to further enhance customer retention strategies.
 
-#### 2c. Which products are the most profitable based on the difference between product cost and product price?
+### 2c. Which products are the most profitable based on the difference between product cost and product price?
 
 ![Most profitable Products](asset/Top_Performing_Product_Based%20on_difference_between_ProductCost_and_ProductPrice.png)
 
@@ -224,7 +222,7 @@ The following sections explore the business questions answered throughout this a
 
 ## 3. 🏪 Store Performance 
 
-#### How did different store locations perform in terms of sales volume and revenue?
+### How did different store locations perform in terms of sales volume and revenue?
 
 ![Stores sales volume and revenue](asset/Stores_by_Sales_Volume_and_Revenue.png)
 
@@ -242,7 +240,7 @@ The following sections explore the business questions answered throughout this a
 
 ## 4. 👥 Customer Insights
 
-#### 4a.  Who are the top customers by total spending, and what is their demographic profile (age, gender, location)?
+### 4a.  Who are the top customers by total spending, and what is their demographic profile (age, gender, location)?
 
 
 ![Top Customers by Total Spend and demography](asset/Customers_by_Total_Spend_sql.png)
@@ -255,7 +253,7 @@ The following sections explore the business questions answered throughout this a
 
 -   These individuals represent a significant portion of revenue and merit focused engagement.
 
-#### 4b. Who are the top customers by Most Orders or repeated patronage, and what is their demographic profile (age, gender, location)?
+### 4b. Who are the top customers by Most Orders or repeated patronage, and what is their demographic profile (age, gender, location)?
 
 ![Top customers by repeated patronage sql table](asset/Repeated%20Patronage%20SQL%20snapshot.png)
 
@@ -271,7 +269,7 @@ The following sections explore the business questions answered throughout this a
 -   Elizabeth Butler, aged 25, from the United Kingdom, and Edward Rose, aged 46, also from the United Kingdom, further highlight the global distribution of loyal customers, each contributing 10 repeated orders.
 
 
-#### 4c. What’s the average Order value by age Category or groups.
+### 4c. What’s the average Order value by age Category or groups.
 
 ![AOV by Age group](asset/Average_Order_value_by_age_groups%20sql.png)
 
