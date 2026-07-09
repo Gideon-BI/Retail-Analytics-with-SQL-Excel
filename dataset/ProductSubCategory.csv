@@ -1,0 +1,33 @@
+ProductSubcategoryID,ProductSubcategory,ProductCategoryID
+101,MP4&MP3,1
+104,Recording Pen,1
+106,Bluetooth Headphones,1
+201,Televisions,2
+202,VCD & DVD,2
+203,Home Theater System,2
+205,Car Video,2
+301,Laptops,3
+303,Desktops,3
+304,Monitors,3
+305,Projectors & Screens,3
+306,"Printers, Scanners & Fax",3
+308,Computers Accessories,3
+401,Digital Cameras,4
+402,Digital SLR Cameras,4
+405,Camcorders,4
+406,Cameras & Camcorders Accessories,4
+501,Home & Office Phones,5
+503,Touch Screen Phones,5
+504,Smart phones & PDAs,5
+505,Cell phones Accessories,5
+602,Movie DVD,6
+701,Boxed Games,7
+702,Download Games,7
+801,Washers & Dryers,8
+802,Refrigerators,8
+803,Microwaves,8
+804,Water Heaters,8
+805,Coffee Machines,8
+806,Lamps,8
+807,Air Conditioners,8
+808,Fans,8
